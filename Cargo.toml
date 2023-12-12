@@ -1,0 +1,15 @@
+[package]
+name = "AlbatrosSurf"
+version = "0.1.0"
+edition = "2021"
+authors = ["Moz <shun123k@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "AlbatrosSurf"
+test = false
+bench = false
+
+[dependencies]
+combine = "4.6.6"
